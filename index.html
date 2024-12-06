@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .l1{
+            border: 2px, solid, blue;
+            background-color:cadetblue;
+            width: 100px;
+            margin: auto;
+
+            
+        }
+        /* .l1:hover{
+            transform:skewY(45deg);
+        } */
+        #translate:checked ~ .l1{
+        transform: none;
+       }
+       #rotate:checked ~ .l1{
+        transform: rotate(10deg);
+       }
+       #rotate2:checked ~ .l1{
+        transform: rotate(45deg);
+       }
+       #rotate3:checked ~ .l1{
+        transform: rotate3d(1,2,1,45deg);
+       }
+       #rotate4:checked ~ .l1{
+        transform: rotate3d(0,1,0,60deg);
+       }
+     
+       #rotate5:checked ~ .l1{
+        transform: rotateX(45deg);
+       }
+       #rotate6:checked ~ .l1{
+        transform: rotateX(100deg);
+       }
+       #rotate7:checked ~ .l1{
+        transform: rotateY(45deg);
+       }
+       #rotate8:checked ~ .l1{
+        transform: rotateY(80deg);
+       }
+       #rotate9:checked ~ .l1{
+        transform: rotatez(45deg);
+       }
+       #rotate10:checked ~ .l1{
+        transform: rotatez(90deg);
+       }
+       #rotate11:checked ~ .l1{
+        transform:skew(20deg,20deg);
+       }
+       #rotate12:checked ~ .l1{
+        transform:skew(30deg,30deg);
+       }
+       #rotate13:checked ~ .l1{
+        transform:skewX(30deg);
+       }
+       #rotate14:checked ~ .l1{
+        transform:skew(40deg);
+       }
+       #rotate15:checked ~ .l1{
+        transform:skewY(40deg);
+       }
+       #rotate16:checked ~ .l1{
+        transform:translate(20px,10px);
+       }
+       #rotate17:checked ~ .l1{
+        transform:translate(20px,20px);
+       }
+       #rotate18:checked ~ .l1{
+        transform:scale(2,2);
+       }
+       #rotate19:checked ~ .l1{
+        transform:scale(2.5,3);
+       }
+       #rotate20:checked ~ .l1{
+        transform:scalex(1.5);
+       }
+       #rotate21:checked ~ .l1{
+        transform:scalex(50%);
+       }
+       #rotate22:checked ~ .l1{
+        transform:scaley(1.5);
+       }
+       #rotate23:checked ~ .l1{
+        transform:scaley(50%);
+       }
+       #rotate24:checked ~ .l1{
+        transform:matrix(0.866,0.7,-0.8,0.866,0,0);
+       }
+       #rotate25:checked ~ .l1{
+        transform:matrix(0.586,0.8,-0.8,0.586,0,0);
+       }
+       #rotate26:checked ~ .l1{
+        transform:matrix(0.586,0.8,-0.8,0.586,40,30);
+       }
+       
+       
+       .p1{
+        background-color: chartreuse;
+       }
+       
+
+       
+       
+      
+
+    </style>
+</head>
+<body>
+    <h1 class="p1">click the properties below to see the result</h1>
+        <input type="radio" name="ji" id="translate">transform: none<br>
+        <input type="radio" name="ji" id="rotate">transform: rotate (10deg)<br>
+        <input type="radio" name="ji" id="rotate2">transform: rotate (45deg)<br>
+        <input type="radio" name="ji" id="rotate3">transform: rotate3d(1,2,1,45deg)<br>
+        <input type="radio" name="ji" id="rotate4">transform: rotate3d(0,1,0,60deg)<br>
+        <input type="radio" name="ji" id="rotate5">transform: rotatex(45deg)<br>
+        <input type="radio" name="ji" id="rotate6">transform: rotatex(100deg)<br>
+        <input type="radio" name="ji" id="rotate7">transform: rotatey(45deg)<br>
+        <input type="radio" name="ji" id="rotate8">transform: rotatey(80deg)<br>
+        <input type="radio" name="ji" id="rotate9">transform: rotatez(45deg)<br>
+        <input type="radio" name="ji" id="rotate10">transform: rotatez(90deg)<br>
+        <input type="radio" name="ji" id="rotate11">transform: skew(20deg,20deg)<br>
+        <input type="radio" name="ji" id="rotate12">transform: skew(30deg,30deg)<br>
+        <input type="radio" name="ji" id="rotate13">transform: skewx(30deg)<br>
+        <input type="radio" name="ji" id="rotate14">transform: skewx(40deg)<br>
+        <input type="radio" name="ji" id="rotate15">transform: skewy(40deg)<br>
+        <input type="radio" name="ji" id="rotate16">transform: translate(20px,10px)<br>
+        <input type="radio" name="ji" id="rotate17">transform: translate(20px,20px)<br>
+        <input type="radio" name="ji" id="rotate18">transform: scale(2,2)<br>
+        <input type="radio" name="ji" id="rotate19">transform: scale(2.5,3)<br>
+        <input type="radio" name="ji" id="rotate20">transform: scalex(1.5)<br>
+        <input type="radio" name="ji" id="rotate21">transform: scalex(50%)<br>
+        <input type="radio" name="ji" id="rotate22">transform: scaley(1.5)<br>
+        <input type="radio" name="ji" id="rotate23">transform: scaley(50%)<br>
+        <input type="radio" name="ji" id="rotate15">transform: matrix(0.866,0.7,-0.8,0.866,0,0)<br>
+        <input type="radio" name="ji" id="rotate24">transform: matrix(0.586,0.8,-0.8,0.586,0,0)<br>
+        <input type="radio" name="ji" id="rotate25">transform: matrix(0.586,0.8,-0.8,0.586,40,30)<br>    
+        <div class="l1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGsNyIyrZj0GMT4jxEKFFAf_QX-xinC26sA&s" alt="" height="130"></div></form>
+
+
+    
+    
+</body>
+</html>
